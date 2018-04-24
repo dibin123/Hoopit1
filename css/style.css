@@ -347,6 +347,19 @@ width:50px !important;
 	margin:0 auto;
 }
 
+.btn-play {
+    padding: 10px 30px;
+    background: #fff;
+    font-size: 18px;
+    border-radius: 25px;
+    color: #000;
+    margin-top: 10px;
+    display: inline-block;
+	font-family:"Uni Sans caps";
+	font-style:italic;
+
+}
+
 /* ========================================================== */
 /* 					   14.  MOBILE DEVICES                    */
 /* ========================================================== */
@@ -381,10 +394,27 @@ p.intro-3{
     margin: 0px ;
 }
 .img-last .img-nba {
-    right: 5px;
+    right: 10%;
+	top:0px;
 }
 .head-title {
     font-size: 30px;
+}
+
+.howitwork {
+   margin: 0px;
+    width: 47%;
+    position: absolute;
+
+}
+.howitwork a{
+	margin-top: 10px;
+    display: inline-block;
+
+}
+
+.xs-break{
+	display:block;
 }
 
 }
