@@ -331,16 +331,18 @@ width:50px !important;
 }
 
 .owl-theme .owl-dots .owl-dot span{
-	width:15px;
-	height:15px;
+	width:10px;
+	height:10px;
+	background: #869791;
 }
 .owl-theme .owl-dots .owl-dot.active span {
-    width:10px;
-	height:10px;
+    width:15px;
+	height:15px;
+	background: #fff;
 }
  .owl-carousel .owl-item {
-    -webkit-animation-duration: 1.2s !important;
-    animation-duration: 1.2s !important;
+    -webkit-animation-duration: 2s !important;
+    animation-duration: 2s !important;
 }
 .width-90{
 	width:90%;
