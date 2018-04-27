@@ -173,7 +173,7 @@ h2.large_text {
 	background-position:top -64px center;
 	position:relative;
 }
-.intro::before {
+.intro::after {
     content: "";
     background: rgba(11,12,26,.75);
     position: absolute;
@@ -216,6 +216,17 @@ p.intro-3{
 	font-family:"Lato";
 	font-style:italic;
 }
+
+.mainwrapper{
+	background:url(../images/wrapper-bg.png) no-repeat;
+	background-size:cover;
+	min-height:500px;
+	width:100%;
+	float:left;
+	
+	position:relative;
+}
+	
 
 .google-play{
 	margin-right:10px;
