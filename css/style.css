@@ -438,7 +438,7 @@ p.intro-3{
 	background:url(../images/game_mobile1.gif) no-repeat;
 	}
 	
-	.intro::before {
+	.intro::after {
     content: "";
     /* background: rgba(11,12,26,.9); */
 	background: -moz-linear-gradient(bottom, rgba(11,12,26,1) 0%, rgba(11,12,26,1) 53%, rgba(11,12,26,0.62) 100%); /* FF3.6-15 */
