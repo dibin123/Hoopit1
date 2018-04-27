@@ -218,7 +218,7 @@ p.intro-3{
 }
 
 .mainwrapper{
-	background:url(../images/wrapper-bg.png) no-repeat;
+	background-color:#000058;
 	background-size:cover;
 	min-height:500px;
 	width:100%;
