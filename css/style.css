@@ -327,6 +327,8 @@ width:50px !important;
     height: 50px;
     display: inline-block;
     padding-top: 18px;
+	z-index:99999;
+	position:relative;
 }
 
 
