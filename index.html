@@ -35,6 +35,41 @@
     
 </head>
 <body>
+
+   <!-- Load JS here for greater good =============================-->
+ <script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/owlcarousel/owl.carousel.min.js"></script>
+<script src="js/custom.js"></script>
+
+<script>
+
+
+    $(document).ready(function() {
+     
+      $("#owl-demo").owlCarousel({
+     
+          navigation : true, // Show next and prev buttons
+          slideSpeed : 6000,
+          paginationSpeed :6000,
+		  items : 1, 
+           itemsDesktop : [1199,1],
+        itemsDesktopSmall : [979,1],
+        itemsTablet :   [768,1],
+		  autoplayTimeout: 6000,
+		  autoplaySpeed: 6000,
+		  autoplay: 6000,
+			loop:true,
+			animateIn: 'fadeIn',
+			animateOut: 'fadeOut' // and this
+
+     
+      });
+     
+    });
+
+
+</script>
             
     
     <div class="mainwrapper">
@@ -181,40 +216,7 @@
     
     
 
-    <!-- Load JS here for greater good =============================-->
- <script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script> 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="js/owlcarousel/owl.carousel.min.js"></script>
-<script src="js/custom.js"></script>
-
-<script>
-
-
-    $(document).ready(function() {
-     
-      $("#owl-demo").owlCarousel({
-     
-          navigation : true, // Show next and prev buttons
-          slideSpeed : 6000,
-          paginationSpeed :6000,
-		  items : 1, 
-           itemsDesktop : [1199,1],
-        itemsDesktopSmall : [979,1],
-        itemsTablet :   [768,1],
-		  autoplayTimeout: 6000,
-		  autoplaySpeed: 6000,
-		  autoplay: 6000,
-			loop:true,
-			animateIn: 'fadeIn',
-			animateOut: 'fadeOut' // and this
-
-     
-      });
-     
-    });
-
-
-</script>
+ 
 
     
 </body></html>
