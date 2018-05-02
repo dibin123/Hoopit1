@@ -420,6 +420,7 @@ p.intro-3{
    margin: 0px;
     width: 47%;
     position: absolute;
+	z-index:9;
 
 }
 .howitwork a{
